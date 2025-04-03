@@ -1,6 +1,6 @@
 # codigo para entender e desenhar a lógica do robô
 
-## Funções e configurações:
+### Header:
   - Mapa (irei definir tudo isso em lua, não em python, fds)
     Mapa = {} :: {
       [int, int, int]: [ --[x,y,z= { feixes lançados nesse ponto } 
@@ -10,8 +10,9 @@
         }
       ]
     }
-  
-primeiro função que o robo precisará será a de detectar o ambiente (detectar_ambiente), essa função vai fazer o seguinte:
+
+### Functions
+Primeira função que o robo precisará será a de detectar o ambiente (detectar_ambiente), essa função vai fazer o seguinte:
   - Rodar o robô, para cada grau que ele virar, irá enviar um sinal (até o momento, infravermelho) e detectar as seguintes propriedades:
     - distancia percorrida,
     - cor do objeto detectado
