@@ -2,6 +2,7 @@
 
 ### Header:
   - Mapa (irei definir tudo isso em lua, não em python, fds)
+    ```lua
     Mapa = {} :: {
       [int, int, int]: [ --[x,y,z= { feixes lançados nesse ponto } 
         { 
@@ -9,7 +10,7 @@
           ObjectColor: string
         }
       ]
-    }
+    }```
 
 ### Functions
 Primeira função que o robo precisará será a de detectar o ambiente (detectar_ambiente), essa função vai fazer o seguinte:
