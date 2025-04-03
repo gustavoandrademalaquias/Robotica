@@ -2,15 +2,15 @@
 
 ### Header:
   - Mapa (irei definir tudo isso em lua, não em python, fds)
-    ```lua
-    Mapa = {} :: {
-      [int, int, int]: [ --[x,y,z= { feixes lançados nesse ponto } 
-        { 
-          DistanceFromStartingPoint: {int, int or 0, int},
-          ObjectColor: string
-        }
-      ]
+```lua
+Mapa = {} :: {
+  [int, int, int]: [ --[x,y,z= { feixes lançados nesse ponto } 
+    { 
+      DistanceFromStartingPoint: {int, int or 0, int},
+      ObjectColor: string
     }
+  ]
+}
 ```
 
 ### Functions
