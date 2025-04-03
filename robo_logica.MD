@@ -22,3 +22,15 @@ Primeira função que o robo precisará será a de detectar o ambiente (detectar
 
     Após isso, salvar na variável Mapa as propriedades para esse feixe.
     - Insert(mapa[posicao_robo], [DistanceFromStartingPoint = 0, ObjectColor = 0]
+    - Código equivalente, em python
+```py
+robot_position = [0, 0, 0]
+distancia_percorrida, cor = enviar_feixe() # unknown function, to define
+
+distancia_calculada = [ 
+  robot_position[0] + distancia_percorrida[0],  
+  robot_position[1] + distancia_percorrida[1],  
+  robot_position[2] + distancia_percorrida[2],  
+] # (x, y, z) althought i dont think we'll use Y, maybe we even can't
+
+```
