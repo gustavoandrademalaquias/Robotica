@@ -10,7 +10,8 @@
           ObjectColor: string
         }
       ]
-    }```
+    }
+```
 
 ### Functions
 Primeira função que o robo precisará será a de detectar o ambiente (detectar_ambiente), essa função vai fazer o seguinte:
