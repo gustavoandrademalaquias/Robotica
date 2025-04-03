@@ -4,12 +4,12 @@
   - Mapa (irei definir tudo isso em lua, não em python, fds)
 ```lua
 Mapa = {} :: {
-  [int, int, int]: [ --[x,y,z= { feixes lançados nesse ponto } 
+  {int, int, int}: { --[x,y,z= { feixes lançados nesse ponto } 
     { 
       DistanceFromStartingPoint: {int, int | 0, int},
       ObjectColor: string
     }
-  ]
+  }
 }
 ```
 
