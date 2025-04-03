@@ -32,5 +32,7 @@ distancia_calculada = [
   robot_position[1] + distancia_percorrida[1],  
   robot_position[2] + distancia_percorrida[2],  
 ] # (x, y, z) althought i dont think we'll use Y, maybe we even can't
-
 ```
+
+- Led display
+
